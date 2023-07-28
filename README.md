@@ -16,7 +16,7 @@ __________________________________________________________
   
     4- reinterpret_cast.
 
-In this project we will use static_cast :
+In this project we will use *static_cast* :
 
   This is the simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types       (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
       
