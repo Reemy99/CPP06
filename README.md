@@ -18,12 +18,12 @@ __________________________________________________________
 
 In this project we will use *static_cast* :
 
-  This is the simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types       (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
+  This is the simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
       
       static_cast< new-type >( expression )
   
 Useful functions:
 
-1)  std::strtoll: It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might                     not be possible.
+1)  *std::strtoll:* It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might not be possible.
   
-2)  std::find_first_not_of: helps you check if a C++ string contains only certain allowed characters or if it has any character that is                                 not in the set of allowed characters.
+2)  *std::find_first_not_of:* helps you check if a C++ string contains only certain allowed characters or if it has any character that is not in the set of allowed characters.
