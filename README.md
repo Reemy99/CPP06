@@ -26,4 +26,4 @@ Useful functions:
 
 1)  *std::strtoll:* It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might not be possible.
   
-2)  *std::find_first_not_of:* helps you check if a C++ string contains only certain allowed characters or if it has any character that is not in the set of allowed characters.
+2)  *std::find_first_not_of:*This function helps you find the position of the first character in the string that is not present in a given set of characters.
