@@ -22,3 +22,8 @@ In this project we will use *static_cast* :
       
       static_cast< new-type >( expression )
   
+Useful functions:
+
+1)  std::strtoll: It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might                     not be possible.
+  
+2)  std::find_first_not_of: helps you check if a C++ string contains only certain allowed characters or if it has any character that is                                 not in the set of allowed characters.
