@@ -42,6 +42,4 @@ reinterpret_cast is a type of casting operator used in C++.:
 
   It is used to convert a pointer of some data type into a pointer of another data type, even if the data types before and after conversion are different.
   It does not check if the pointer type and data pointed by the pointer is same or not.
-=======
 4)  rand() function : is a built-in function used to generate random numbers in our code. The range of this random number can be varied from [0 to any maximum number], we just need                         to define the range in code. the rand() function is defined in the header file named <cstdlib>.
->>>>>>> e11d6ed1e8ab09ab0165986962e40cb70d9391b3
