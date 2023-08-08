@@ -30,14 +30,13 @@ In ex02 we used *dynamic_cast*.
       
 
 
-Useful functions:
+Useful functions for ex00:
 
 1)  *std::strtoll:* It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might not be possible.
 2)  *std::find_first_not_of:* This function helps you find the position of the first character in the string that is not present in a given set of characters.
 3)  *std::invalid_argument:* is an exception class that is used to represent invalid arguments passed to a function, and it's thrown when the function's requirements are not met.
 <<<<<<< HEAD
 ------------------------------------
-## ex01
 
 reinterpret_cast is a type of casting operator used in C++.:
 
