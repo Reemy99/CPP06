@@ -25,6 +25,9 @@ In ex02 we used *dynamic_cast*.
   static_cast: simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
       
       static_cast< new-type >( expression )
+      reinterpret_cast< target-type >(expression)
+      dynamic_cast< target-type >(expression)
+      
 
 
 Useful functions:
