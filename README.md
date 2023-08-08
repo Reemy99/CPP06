@@ -16,12 +16,15 @@ __________________________________________________________
   
     4- reinterpret_cast.
 
-In this project we will use *static_cast* :
+In ex00 we used *static_cast*.
+In ex01 we used *reinterpret_cast*.
+In ex02 we used *dynamic_cast*.
 
-  This is the simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
+  static_cast: simplest type of cast that can be used. It is a compile-time cast. It does things like implicit conversions between types (such as int to float, or pointer to void*), and it can also call explicit conversion functions, and you can write it in this syntax
       
       static_cast< new-type >( expression )
-  
+
+
 Useful functions:
 
 1)  *std::strtoll:* It converts a string of characters into a number, but it's smart enough to handle situations where the conversion might not be possible.
